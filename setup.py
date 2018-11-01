@@ -9,7 +9,7 @@ def fread(filepath):
 setup(
     name='Markdown2PDF',
     version='0.1.3',
-    url='https://github.com/kxxoling/markdown2pdf',
+    url='https://github.com/Hamdy/markdown2pdf',
     license='MIT',
     author='Kane Blueriver',
     author_email='kxxoling@gmail.com',
