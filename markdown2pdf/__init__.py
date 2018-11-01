@@ -7,7 +7,7 @@ from markdown2 import markdown_path
 
 
 def convert_md_2_pdf(filename, output=None, theme=None):
-    html = markdown_path(filename, extras=['tables'])
+    html = markdown_path(filename, extras=['tables', 'fenced-code-blocks', 'break-on-newline', 'wiki-tables'])
     if not output:
         output = '.'.join([filename.rsplit('.', 1)[0], 'pdf'])
 
