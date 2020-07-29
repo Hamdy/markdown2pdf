@@ -1,21 +1,13 @@
 Markdown2PDF
 ============
 
-Markdown2pdf is a command-line tool to convert markdown file into pdf,
-was originally designed for myself to create resume.
+Markdown2pdf is a command-line tool to convert markdown file into pdf
 
-.. image:: https://travis-ci.org/kxxoling/markdown2pdf.svg?branch=master
-    :target: https://travis-ci.org/kxxoling/markdown2pdf
-    :alt: Building Status
 
-.. image:: https://landscape.io/github/kxxoling/markdown2pdf/master/landscape.svg?style=flat
-    :target: https://landscape.io/github/kxxoling/markdown2pdf/master
-    :alt: Code Health
+Differences from [original Repo](https://github.com/kxxoling/markdown2pdf)
 
-.. image:: https://pypip.in/download/markdown2pdf/badge.svg?period=week
-    :target: https://pypi.python.org/pypi/markdown2pdf/
-    :alt: Downloads
-
+- Python3 
+- Adding some extras
 
 Installation
 ------------
@@ -26,7 +18,7 @@ Install Markdown2PDF by pip:
 
 .. code-block:: shell
 
-    pip install markdown2pdf
+    pip3 install git+https://github.com/Hamdy/markdown2pdf.git
 
 
 Usage
